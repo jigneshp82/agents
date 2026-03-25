@@ -1,0 +1,135 @@
+Running the Crew
+Running the Crew
+╭───────────────────────────────────────────────────────────────── Crew Execution Started ─────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                          │
+│  Crew Execution Started                                                                                                                                  │
+│  Name: crew                                                                                                                                              │
+│  ID: 6145949b-31c8-4e51-b74d-92457a26acca                                                                                                                │
+│  Tool Args:                                                                                                                                              │
+│                                                                                                                                                          │
+│                                                                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: propose_task (ID: aea05872-6fe0-41af-9e57-4d6cb2caac86)
+    Status: Executing Task...╭──────────────────────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                          │
+│  Agent: A Compelling Debator                                                                                                                             │
+│                                                                                                                                                          │
+│  Task: You are proposing the topic: Gun Control in America. Come up with a clear argument in favor of the topic. Be very convincing.                     │
+│                                                                                                                                                          │
+│                                                                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: propose_task (ID: aea05872-6fe0-41af-9e57-4d6cb2caac86)
+    Status: Executing Task...
+    └── ❌ LLM Failed╭─────────────────────────────────────────────────────────────────────── LLM Error ────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                          │
+│  ❌ LLM Call Failed                                                                                                                                      │
+│  Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=OpenAI\gpt-40-mini         │
+│   Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more:                            │
+│  https://docs.litellm.ai/docs/providers                                                                                                                  │
+│                                                                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: propose_task (ID: aea05872-6fe0-41af-9e57-4d6cb2caac86)
+    Assigned to: A Compelling Debator
+    
+    Status: ❌ Failed
+    └── ❌ LLM Failed╭────────────────────────────────────────────────────────────────────── Task Failure ──────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                          │
+│  Task Failed                                                                                                                                             │
+│  Name: propose_task                                                                                                                                      │
+│  Agent: A Compelling Debator                                                                                                                             │
+│                                                                                                                                                          │
+│  Tool Args:                                                                                                                                              │
+│                                                                                                                                                          │
+│                                                                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────────────── Crew Failure ──────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                          │
+│  Crew Execution Failed                                                                                                                                   │
+│  Name: crew                                                                                                                                              │
+│  ID: 6145949b-31c8-4e51-b74d-92457a26acca                                                                                                                │
+│  Tool Args:                                                                                                                                              │
+│  Final Output:                                                                                                                                           │
+│                                                                                                                                                          │
+│                                                                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+
+╭──────────────────────────────────────────────────────────────────── Execution Traces ────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                          │
+│  🔍 Detailed execution traces are available!                                                                                                             │
+│                                                                                                                                                          │
+│  View insights including:                                                                                                                                │
+│    • Agent decision-making process                                                                                                                       │
+│    • Task execution flow and timing                                                                                                                      │
+│    • Tool usage details                                                                                                                                  │
+│                                                                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Would you like to view your execution traces? [y/N] (20s timeout): Running the Crew
+╭───────────────────────────────────────────────────────────────── Crew Execution Started ─────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                          │
+│  Crew Execution Started                                                                                                                                  │
+│  Name: crew                                                                                                                                              │
+│  ID: cb8025cb-7725-471e-ac10-5c61eb373e27                                                                                                                │
+│  Tool Args:                                                                                                                                              │
+│                                                                                                                                                          │
+│                                                                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: propose_task (ID: 4975f855-939a-4c1b-8839-c2a7c003c545)
+    Status: Executing Task...╭──────────────────────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                          │
+│  Agent: A Compelling Debator                                                                                                                             │
+│                                                                                                                                                          │
+│  Task: You are proposing the topic: Gun Control in America. Come up with a clear argument in favor of the topic. Be very convincing.                     │
+│                                                                                                                                                          │
+│                                                                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: propose_task (ID: 4975f855-939a-4c1b-8839-c2a7c003c545)
+    Status: Executing Task...
+    └── ❌ LLM Failed╭─────────────────────────────────────────────────────────────────────── LLM Error ────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                          │
+│  ❌ LLM Call Failed                                                                                                                                      │
+│  Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=OpenAI\gpt-4o-mini         │
+│   Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more:                            │
+│  https://docs.litellm.ai/docs/providers                                                                                                                  │
+│                                                                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: propose_task (ID: 4975f855-939a-4c1b-8839-c2a7c003c545)
+    Assigned to: A Compelling Debator
+    
+    Status: ❌ Failed
+    └── ❌ LLM Failed╭────────────────────────────────────────────────────────────────────── Task Failure ──────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                          │
+│  Task Failed                                                                                                                                             │
+│  Name: propose_task                                                                                                                                      │
+│  Agent: A Compelling Debator                                                                                                                             │
+│                                                                                                                                                          │
+│  Tool Args:                                                                                                                                              │
+│                                                                                                                                                          │
+│                                                                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────────────── Crew Failure ──────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                          │
+│  Crew Execution Failed                                                                                                                                   │
+│  Name: crew                                                                                                                                              │
+│  ID: cb8025cb-7725-471e-ac10-5c61eb373e27                                                                                                                │
+│  Tool Args:                                                                                                                                              │
+│  Final Output:                                                                                                                                           │
+│                                                                                                                                                          │
+│                                                                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
